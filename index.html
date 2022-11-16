@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="ul">
+                <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/logo.svg" alt="" id="logo">
+
+                <div class="navSections">
+
+                    <div class="navSection navLeft">
+                        <li class="navItem navItem1">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="navItem navItem2">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="navItem navItem3">
+                            <a href="#">Store</a>
+                        </li>
+
+                    </div>
+
+
+
+                    <div class="navSection navRight">
+                        <div class="navDiv navDivLeft">
+                            <img src="images/call.svg" alt="call" id="navCall" srcset=" ">
+
+                            <p class="navPhone">+ 0123456789</p>
+                        </div>
+                        <div class="navDiv navDivRight ">
+
+                            <img src="images/cart.svg" alt="" class="shop">
+                            <p class="itemQuanitityNav">0 <span class="items">items</span></p>
+                            <p>-</p>
+                            <p class="navItemPrice">$ <span>
+                            <navPrice>0.00</navPrice>
+                        </span></p>
+                        </div>
+                    </div>
+                </div>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="section1 mainPage">
+
+        <p>Wecome To <span id="span">Grandma's</span> </p>
+        <button class="exploreBtn">EXPLORE</button>
+    </section>
+
+
+    <section class="aboutUs">
+        <div class="aboutUsDiv aboutUs leftDiv">
+            <h1>About Us </h1>
+            <p class="aboutUsDiscription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, doloremque ad nihil dolorem sit praesentium temporibus commodi. Rem a accusantium aliquam minus pariatur omnis voluptatibus quis sapiente asperiores delectus maiores, libero rerum doloribus dignissimos ab similique corporis? In nobis pariatur error labore? Vero, debitis natus dicta animi accusamus expedita iure, accusantium voluptatibus perferendis consequuntur quia dolor modi! Excepturi facilis soluta quaerat sequi quod delectus a, saepe possimus eaque, dolore, voluptatum modi ex fuga corrupti repudiandae incidunt repellendus animi eius laborum magni! Accusamus pariatur fugit ipsa commodi saepe natus est voluptates soluta veritatis? Perferendis voluptatibus harum neque, sapiente id incidunt impedit.</p>
+       
+            <button class="exploreBtnAbout">EXPLORE</button>
+        </div>
+        <div class="aboutUsDiv aboutUs leftDiv">
+
+            <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/sweets-1.jpeg" alt="" class="aboutImg">
+        </div>
+    </section>
+
+
+    <section class="ourStore">
+        <div class="popUp showOrNot">
+
+            <!-- <img id="popImg" src="https://js-beginners.github.io/Modal-JavaScript-Project/img/sweets-1.jpeg" alt="" srcset=""> -->
+                <div class="closeBtn"><img src="images/close.png" alt="" srcset=""></div>
+                <div class="arrows leftBtn"><img src="images/left.svg" alt="" srcset=""></div>
+                <div class="arrows rightBtn"><img src="images/right.svg" alt="" srcset=""></div>
+
+            
+        </div>
+        <h1 id="ourStore">Our <span>Store</span> </h1>
+        <div class="ourStoreChoose chooseSection">
+            <button class="chooseAlldiv  chooseDiv1 clicked"  id="chooseDiv1"   >ALL</button>
+            <button class="chooseAlldiv  chooseDiv2"  id="chooseDiv2"   >CAKES</button>
+            <button class="chooseAlldiv  chooseDiv3"  id="chooseDiv3"   >CUPCAKES</button>
+            <button class="chooseAlldiv  chooseDiv4"  id="chooseDiv4"   >SWEETS</button>
+            <button class="chooseAlldiv  chooseDiv5"  id="chooseDiv5"   >DAUGHTNUTS</button>
+        </div>
+         <div class="inputItem">
+        
+            <span id="searchImg"><img src="images/search.png" alt=""> </span>
+            <input type="text" placeholder="item..." class="searchImg">
+        
+        
+        </div>
+
+
+        <div class="imgSectionStore">
+            <div class="imgContainerBox imgContainerBox1">
+                
+                <div class="imgBox imgBox1">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/sweets-1.jpeg" alt=""  class="imgBoxImg1 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">Sweets Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+                <div class="imgBox imgBox2">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/cupcake-1.jpeg" alt="" class="imgBoxImg2 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">Cupcakes Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+                <div class="imgBox imgBox3">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/cake-1.jpeg" alt="" class="imgBoxImg3 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">Cakes Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+
+            </div>
+            <div class="imgContainerBox imgContainerBox2">
+                <div class="imgBox imgBox4">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/doughnut-1.jpeg" alt="" class="imgBoxImg4 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">Daughtnuts Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+                <div class="imgBox imgBox5">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/sweets-2.jpeg" alt="" class="imgBoxImg5 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">Sweets Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+                <div class="imgBox imgBox6">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/cupcake-2.jpeg" alt="" class="imgBoxImg6 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">Cupcakes Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="imgContainerBox imgContainerBox3">
+                <div class="imgBox imgBox7">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/cake-2.jpeg" alt="" class="imgBoxImg7 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">cakes Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+                <div class="imgBox imgBox8">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/doughnut-2.jpeg" alt="" class="imgBoxImg8 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">Sweets Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+                <div class="imgBox imgBox9">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/sweets-3.jpeg" alt="" class="imgBoxImg9 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">Sweets Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="imgContainerBox imgContainerBox4">
+                <div class="imgBox imgBox10">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/cupcake-3.jpeg" alt="" class="imgBoxImg10 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">Cupcakes Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+                <div class="imgBox imgBox11">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/cake-3.jpeg" alt="" class="imgBoxImg11 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">Cakes Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+                <div class="imgBox imgBox12">
+                    <img src="https://js-beginners.github.io/Modal-JavaScript-Project/img/doughnut-3.jpeg" alt="" class="imgBoxImg12 imgBoxImg">
+                
+                    <div class="imgText">
+                        <p class="name">DaughtNuts Item</p>
+                        <p class="prices">$ <span class="price">5</span></p>
+                    </div>
+                
+                </div>
+            </div>
+           
+        </div>
+        
+    </section>
+
+    <script src="index.js "></script>
+</body>
+
+</html>

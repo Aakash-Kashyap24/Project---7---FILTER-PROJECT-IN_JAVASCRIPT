@@ -1,0 +1,545 @@
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Kaushan Script', cursive;
+    }
+    
+     :root {
+        --blue: #007bff;
+        --indigo: #6610f2;
+        --purple: #6f42c1;
+        --pink: #e83e8c;
+        --red: #dc3545;
+        --orange: #fd7e14;
+        --yellow: #ffc107;
+        --green: #28a745;
+        --teal: #20c997;
+        --cyan: #17a2b8;
+        --white: #fff;
+        --gray: #6c757d;
+        --gray-dark: #343a40;
+        --primary: #007bff;
+        --secondary: #6c757d;
+        --yellowTrans: #ece8845c;
+        --success: #28a745;
+        --info: #17a2b8;
+        --warning: #ffc107;
+        --danger: #dc3545;
+        --light: #f8f9fa;
+        --dark: #343a40;
+        --breakpoint-xs: 0;
+        --breakpoint-sm: 576px;
+        --breakpoint-md: 768px;
+        --breakpoint-lg: 992px;
+        --breakpoint-xl: 1200px;
+        --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    }
+    
+    nav {
+        display: block;
+        background: rgb(2, 255, 209);
+    }
+    
+    nav ul {
+        display: flex;
+    }
+    
+    .navSections {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 10px 33px;
+    }
+    
+    nav ul .navSection {
+        display: flex;
+        margin-left: auto;
+        justify-content: center;
+        /* padding: 10px; */
+    }
+    
+    nav ul #logo {
+        margin: 0px 0px 0px 33px;
+        /* padding: 10px; */
+    }
+    
+    nav ul li {
+        list-style: none;
+        margin: 10px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+    }
+    
+    nav ul .navSection .navDiv {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        /* margin: 10px; */
+    }
+    
+    nav ul .navSection img {
+        height: 26px;
+        margin-right: 10px;
+    }
+    
+    nav ul .navDivLeft {
+        margin-right: auto;
+        margin-left: 50px;
+        /* background: rgb(65, 65, 65); */
+    }
+    
+    nav ul .navDivRight {
+        /*margin-right: 3px;
+        */
+        border: 1px solid rgb(14, 14, 14);
+        border-radius: 4px;
+        padding: 1px 8px;
+        cursor: pointer;
+    }
+    
+    nav ul p {
+        padding: 10px;
+    }
+    
+    nav ul .navLeft {
+        font-size: 1.5rem;
+    }
+    
+    nav ul .navRight {
+        min-width: 500px;
+    }
+
+    nav ul .navDivRight:hover {
+        /*margin-right: 3px;
+        */
+        /* border: 2px solid wheat;
+        border-radius: 4px;
+        padding: 1px 8px;
+        cursor: pointer; */
+
+        background: #E83E8C;
+        color: wheat;
+    }
+    
+
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+/* ........................................mainPage */
+
+
+
+.mainPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-size: 2rem;
+    color: rgb(255, 17, 17);
+    font-weight: normal;
+
+        background: linear-gradient(var(--yellowTrans), var(--yellowTrans)), url('https://js-beginners.github.io/Modal-JavaScript-Project/img/headerBcg.jpeg') center/cover fixed no-repeat;
+}
+
+
+.mainPage .exploreBtn{
+    padding: 5px 15px;
+    font-size: 2rem;
+    cursor: pointer;
+    /* background: 0; */
+    border: 2px solid black;
+    background: transparent;
+
+
+}
+.exploreBtn:hover{
+    background: black;
+    color: wheat;
+}
+
+#span{
+    color: rgb(230, 0, 255);
+    font-size: 3rem;
+}
+
+
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>aboutUS */
+
+
+.aboutUs{
+display: flex;
+padding: 33px 100px;
+        background: rgb(32, 32, 32);
+        color: wheat;
+
+}
+
+.aboutUsDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.aboutUsDiv .exploreBtnAbout{
+
+    width: 150px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    background: transparent;
+    padding: 5px;
+    border: 1.5px solid;
+
+    cursor: pointer;
+    color: wheat;
+}
+
+.aboutUsDiv p{
+    margin-top: 15px;
+    word-spacing: 1.5px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 1.5rem;
+}
+
+.aboutUsDiv h1{
+    font-size: 2rem;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>ourStore */
+
+
+
+.ourStore{
+display: flex;
+flex-direction: column;
+justify-self: center;
+align-items: center;
+ background: rgb(0, 0, 0);
+        color: wheat;
+}
+
+.ourStore #ourStore{
+    font-size: 3rem;
+}
+.ourStore #ourStore span{
+    font-size: 5rem;
+    
+}
+.chooseSection{
+    display: flex;
+}
+
+.chooseSection .chooseDiv1{
+    padding: 10px;
+    margin: 15px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(96, 96, 96);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(195, 181, 181);
+
+}
+
+.clicked{
+        background: rgb(69, 65, 65);
+
+        border: 0;
+    color: rgb(206, 206, 206);
+}
+.chooseSection .chooseDiv2{
+    padding: 10px;
+    margin: 15px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(96, 96, 96);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(195, 181, 181);
+
+}
+.chooseSection .chooseDiv3{
+    padding: 10px;
+    margin: 15px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(96, 96, 96);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(195, 181, 181);
+
+}
+.chooseSection .chooseDiv4{
+    padding: 10px;
+    margin: 15px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(96, 96, 96);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(195, 181, 181);
+
+}
+.chooseSection .chooseDiv5{
+    padding: 10px;
+    margin: 15px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(96, 96, 96);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(195, 181, 181);
+
+}
+
+
+.chooseAlldiv:hover{
+    background: gray;
+
+}
+.chooseAlldiv:active{
+    background: rgb(69, 65, 65);
+
+        border: 0;
+    color: rgb(206, 206, 206);
+
+}
+.inputItem{
+    display: flex;
+    
+}
+
+#searchImg img{
+    height: 20px;
+    width: 20px;
+}
+#searchImg{
+    border: 2px solid wheat;
+    height: 40px;
+    border-radius: 4px 0px 4px 4px;
+
+    background: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+}
+.searchImg{
+    height: 40px;
+    padding: 10px;
+
+    width: 500px;
+    border-radius: 4px 4px 4px 0px ;
+    background: transparent;
+}
+
+
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+/* ............imgContainerBox */
+
+.imgContainerBox{
+    display: flex;
+    margin: 50px ; 
+    color: rgb(163, 163, 163);
+
+}
+
+
+.imgBox{
+    width: 400px;
+    height: 350px;
+    background: rgb(39, 39, 38);
+    border:2px solid rgb(77, 77, 76);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.imgBox img{
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+
+}
+
+.imgText{
+    display: flex;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.imgText .name{
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+/* .........................popUp */
+
+.popUp{
+    background: url('https://js-beginners.github.io/Modal-JavaScript-Project/img/sweets-1.jpeg');
+    min-width: 1200px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    overflow: hidden;
+    transition: 1s;
+    display: flex;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.popUp .closeBtn{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    
+    background: rgba(236, 236, 236, 0.718);
+    border: 0;
+}
+
+.popUp .arrows{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    /* z-index: -1; */
+    background: rgba(236, 236, 236, 0.718);
+    border: 0;
+}
+.popUp .leftBtn{
+    left: 5px;
+  
+}
+
+.popUp .rightBtn{
+    right: 5px;
+    
+}
+
+.showOrNot{
+    transition: 1s;
+
+    display: none;
+    box-shadow: 0px 0px 1005px rgb(0, 0, 0);
+}
+
+
